@@ -1,0 +1,84 @@
+body{
+    background-color:lightslategray;
+}
+.img1{
+    padding: 2em;
+    margin: auto; 
+    display: block;
+    border-radius: 20%;
+}
+.img2, .img3, .img4, .img5{
+    margin: auto; 
+    display: block;
+    border-radius: 5%;   
+}
+
+.introduction{
+    border-radius: 0.5em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+@media(min-width: 760px) {
+    .mycity{
+    display: flex;
+    }
+    .subjects{
+    display: flex;
+    }
+}
+.mycity{
+padding:2em;
+}
+
+table, th, td {
+    border: 2px solid black;
+    width:25em;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.paragraph{
+    padding:3em;
+}
+.mpw{
+    font-family: 'Impact';
+    text-align: center;
+    color:gold;
+    border:3em;
+    border-radius: 0.1em;
+    background-color:blueviolet;
+    font-size:50px;
+    padding:7px;
+}
+.myname{
+    font-family: 'elephant black';
+    font-style: italic;  
+    padding-right: 2em; 
+}
+.city, .lang, .lname, .ls, .p, .sub, h4, h2{
+    font-family: 'Impact';
+}
+.sub1, .sub2, .sub3{
+    flex: 1;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    text-align: left;
+}
+.s1,.s2,.s3{
+    display: flex;
+}
+
+.sub{
+    text-align: center;
+}
+
+h2{
+    border-radius: 0.1em;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+}
